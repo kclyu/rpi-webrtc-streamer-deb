@@ -20,7 +20,7 @@ The latest Deb versions are listed below.
 
 |Deb File|SHA256sum|
 |----------------|---------------|
-|rws_0.65_armhf.deb|99e0aa822ff8bcdd3bbfe978466f2bed281001553f3b9c295eba2d6ed636d6c2|
+|rws_0.65.0_armhf.deb|46ef8828cefcd834be773d12a46071caa683f7f1ba24a2634bbee0d2c5add567
 
 
 ## Downloading Deb Package

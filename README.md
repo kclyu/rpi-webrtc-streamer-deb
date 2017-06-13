@@ -1,7 +1,7 @@
 
 # Rpi WebRTC Streamer Package
 
-This Repo is for testing the deb package of rpi-webrtc-streamer. Because it is for RWS testing, it may show unstable result. For more information on rpi-webrtc-streamer, please refer to this [Rpi-WebRTC-Streamer Repo](https://github.com/kclyu/rpi-webrtc-streamer).
+This Repo is for testing the deb package of rpi-webrtc-streamer. For more information on rpi-webrtc-streamer, please refer to this [Rpi-WebRTC-Streamer Repo](https://github.com/kclyu/rpi-webrtc-streamer).
 
 ## Supported Hardware
 
@@ -20,12 +20,12 @@ The latest Deb versions are listed below.
 
 |Deb File|SHA256sum|
 |----------------|---------------|
-|rws_0.65.0_armhf.deb|46ef8828cefcd834be773d12a46071caa683f7f1ba24a2634bbee0d2c5add567
+|[rws_0.65.0_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.65.0_armhf.deb)|46ef8828cefcd834be773d12a46071caa683f7f1ba24a2634bbee0d2c5add567
 
 
 ## Downloading Deb Package
 
-**Please do not clone this Repo entirely**.  download the specific deb package file. The downloaded file can be installed with the following command.
+The downloaded file can be installed with the following command.
 
 *The two apt commands below does not need to be run if the current Raspberry PI OS is up to date.*
 ```
@@ -39,16 +39,17 @@ To remove rws package, please use following command
 ```
 sudo dpkg -r rws
 ```
-
+*Since the current log directory is located in the installation directory, you can delete the '/opt/rws' directory manally after dpkg remove.*
 ##  Installation Directory
 When the installation is complete, the following files and directories are created under **/opt/rws**.
+
 |File/Directory|Description|
 |---------------|------------|
 |LICENSE|There are LICENSE files for the S/W package and libraries used by RWS.|
 |webrtc-streamer|RWS man binary executable|
 |etc|configuration files|
 |web-root|Where test html files and js files are located.|
-|log|Directory where log messages are stored. Files from rws_log_0 to rws_log_9 are created. If webrtc-streamer is not restarted, the files are moved between 0 and 9. When the webrtc-streamer restarted, the log files are moved from 00 directory to 09. Files moved to 09 will be deleted when it restarted again.|
+|log|Directory where log messages are stored. Files from rws_log_0 to rws_log_9 are created. If webrtc-streamer is not restarted, the files will not moved between shift folders. When the process is restarted, the log files in the '/opt/rws/log' directory are moved to 00. And files in 00 move to 01, 01 move to 02 ... the log files in the last 09 directory are deleted.|
 
 ##  Process Management 
 RWS is only compatible with systemd. To execute the process and check the status, use the following command.

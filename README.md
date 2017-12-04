@@ -21,6 +21,9 @@ The latest Deb versions are listed below.
 |----------------|---------------|
 |[rws_0.65.0_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.65.0_armhf.deb)|46ef8828cefcd834be773d12a46071caa683f7f1ba24a2634bbee0d2c5add567|
 [rws_0.65.0_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.65.0_RaspiZeroW_armhf.deb)|dbecc32f6f1b857897c03da067a661bf536092385a91439fc175414d9f37dc5e|
+|[rws_0.72.0_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.72.0_armhf.deb)|f66c83631f8606fe853e82f1d49dd32bd795865849ddc1612db3958320c5c9e0|
+[rws_0.72.0_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.72.0_RaspiZeroW_armhf.deb)|56ac0c9d977512e918be13ad5657f9b39d2865426e0b7105a3e7d1258c77c177|
+
 
 ## Downloading Deb Package
 

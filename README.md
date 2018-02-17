@@ -7,7 +7,7 @@ This Repo is for testing the deb package of rpi-webrtc-streamer. For more inform
 
 ### Raspberry PI 
 - Raspberry PI 2/3
-- Raspberry Pi Zero/Zero W (ZeroW tested)
+- Raspberry Pi Zero W
 
 ### Video Camera
 - RPI Camera board V1/V2
@@ -23,8 +23,9 @@ The latest Deb versions are listed below.
 [rws_0.65.0_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.65.0_RaspiZeroW_armhf.deb)|dbecc32f6f1b857897c03da067a661bf536092385a91439fc175414d9f37dc5e|
 |[rws_0.72.0_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.72.0_armhf.deb)|f66c83631f8606fe853e82f1d49dd32bd795865849ddc1612db3958320c5c9e0|
 [rws_0.72.0_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.72.0_RaspiZeroW_armhf.deb)|56ac0c9d977512e918be13ad5657f9b39d2865426e0b7105a3e7d1258c77c177|
-|[rws_0.73.0_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.0_armhf.deb)|63ffaa9d896bbcceaa97e93d2c421af7da47cdbff13991114ffc77901001b93c|
-[rws_0.73.0_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.0_RaspiZeroW_armhf.deb)|994e7ec5a45ec89a330ca509a5d47127a7aad491f025d76cb8c1b846815fae27|
+|[rws_0.73.1_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.1_armhf.deb)|664b4ab14e0522d4a7f3a7659e347896dd3906d361560a70ba255fb57f7df9cb|
+[rws_0.73.1_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.1_RaspiZeroW_armhf.deb)|84267a33c5117eee294b7838710f4acb418028e9f48c2950e487bd51d5542b83|
+
 
 ## Downloading Deb Package
 

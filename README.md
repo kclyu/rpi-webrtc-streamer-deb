@@ -17,14 +17,10 @@ This Repo is for testing the deb package of rpi-webrtc-streamer. For more inform
 The latest Deb versions are listed below.
 
 
-|Deb File|SHA256sum|
-|----------------|---------------|
-|[rws_0.65.0_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.65.0_armhf.deb)|46ef8828cefcd834be773d12a46071caa683f7f1ba24a2634bbee0d2c5add567|
-[rws_0.65.0_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.65.0_RaspiZeroW_armhf.deb)|dbecc32f6f1b857897c03da067a661bf536092385a91439fc175414d9f37dc5e|
-|[rws_0.72.0_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.72.0_armhf.deb)|f66c83631f8606fe853e82f1d49dd32bd795865849ddc1612db3958320c5c9e0|
-[rws_0.72.0_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.72.0_RaspiZeroW_armhf.deb)|56ac0c9d977512e918be13ad5657f9b39d2865426e0b7105a3e7d1258c77c177|
-|[rws_0.73.1_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.1_armhf.deb)|664b4ab14e0522d4a7f3a7659e347896dd3906d361560a70ba255fb57f7df9cb|
-[rws_0.73.1_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.1_RaspiZeroW_armhf.deb)|84267a33c5117eee294b7838710f4acb418028e9f48c2950e487bd51d5542b83|
+|Deb File|SHAsum|Date|
+|----------------|---------------|---------------|
+|[rws_0.73.2_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.2_armhf.deb)|cae754917e0a8e022a462e672bf641783f2fa17a|2018-05-01|
+[rws_0.73.2_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.2_RaspiZeroW_armhf.deb)|240b8911b0c0965e9932802ac0988b01d8808cb7|2018-05-01|
 
 
 ## Downloading Deb Package

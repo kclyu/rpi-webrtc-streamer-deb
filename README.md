@@ -19,9 +19,9 @@ The latest Deb versions are listed below.
 
 |Deb File|SHAsum|Date|
 |----------------|---------------|---------------|
-|[rws_0.73.2_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.2_armhf.deb)|cae754917e0a8e022a462e672bf641783f2fa17a|2018-05-01|
-[rws_0.73.2_RaspiZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.73.2_RaspiZeroW_armhf.deb)|240b8911b0c0965e9932802ac0988b01d8808cb7|2018-05-01|
-
+|[rws_0.74.1_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.74.1_armhf.deb)|17699dfee3a4b26f97db8c8a6040d1de|2020-02-04|
+[rws_0.74.1_RaspZeroW_armhf.deb](https://github.com/kclyu/rpi-webrtc-streamer-deb/blob/master/rws_0.74.1_RaspZeroW_armhf.deb)|fa4332756f4e302739134470771085c0|2020-02-04|
+_The above deb files are for Raspbian OS Buster._
 
 ## Downloading Deb Package
 
@@ -54,14 +54,15 @@ When the installation is complete, the following files and directories are creat
 ##  Process Management 
 RWS is only compatible with systemd. To execute the process and check the status, use the following command.
 
-#### Start
-```
-sudo systemctl start rws
-```
 #### Stop
 ```
 sudo systemctl stop rws
 ```
+#### Start
+```
+sudo systemctl start rws
+```
+
 #### Status/Monitoring
 `sudo systemctl status rws` is used for process status checking.
 `sudo journalctl -u rws` for  log message for process start/stop/standard error log checking.
@@ -106,13 +107,13 @@ Jun 08 21:09:18 raspberrypi webrtc-streamer[14968]: ALSA lib pcm.c:2239:(snd_pcm
 Open the following URL in the chrome browser will display the native-peerconnection testing page.
 
 ```
-http://your-private-ip-address:8889/native-peerconnection/
+http://your-private-ip-address:8889/np2/
 ```
 *`8889` port number is the websocket_port specified in the config file, and the URL protocol uses http instead of https.*
 
 
 ## Version History
-Please refer to RWS repo for version-specific history and function description.
+Please refer to [RWS repo](https://github.com/kclyu/rpi-webrtc-streamer) for version-specific history and function description.
 
 
  
